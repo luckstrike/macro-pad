@@ -7,19 +7,14 @@ import {
   brands,
   icon,
 } from '@fortawesome/fontawesome-svg-core/import.macro'
-import { Link } from 'react-router-dom'
 
 export default class HomeMacro extends Component {
-  handleClick = () => {
-    console.log('Clicked!')
-  };
 
   render() {
     return (
       <div class="wrapper">
         <div class="arrow-container">
-          <div class="page-arrow" id="left-arrow" onClick={this.handleClick}>
-            <Link to="youtube"></Link>
+          <div class="page-arrow" id="left-arrow">
             <FontAwesomeIcon icon={solid('arrow-left')} />
           </div>
           <div class="page-arrow" id="right-arrow">
