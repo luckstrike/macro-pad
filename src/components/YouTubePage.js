@@ -8,11 +8,14 @@ import {
   icon,
 } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { Link } from 'react-router-dom'
+import GetTime from './GetTime.js'
 
 function YouTubePage() {
   return (
     <div class="wrapper">
-      <div class="system-bar">Navbar</div>
+      <div class="system-bar">
+        <GetTime />
+      </div>
       <div class="page-arrow" id="right-arrow">
         <Link to="/" class="page-arrow">
           <FontAwesomeIcon icon={solid('arrow-right')} />
@@ -22,4 +25,4 @@ function YouTubePage() {
   )
 }
 
-export default YouTubePage;
+export default YouTubePage

@@ -8,6 +8,7 @@ import {
   icon,
 } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { Link } from 'react-router-dom'
+import GetTime from './GetTime.js'
 
 function HomeMacro() {
   return (
@@ -24,7 +25,9 @@ function HomeMacro() {
           </Link>
         </div>
       </div>
-      <div class="system-bar">Navbar</div>
+      <div class="system-bar">
+        <GetTime />
+      </div>
       <div class="dash-matrix">
         <button class="dash-macro"></button>
         <button class="dash-macro"></button>
