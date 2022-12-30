@@ -21,7 +21,7 @@ export default class HomeMacro extends Component {
             </Link>
           </div>
           <div class="page-arrow" id="right-arrow">
-            <Link to="/*" class="page-arrow">
+            <Link to="/spotify" class="page-arrow">
               <FontAwesomeIcon icon={solid('arrow-right')} />
             </Link>
           </div>

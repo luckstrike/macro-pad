@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeMacro />} />
         <Route path="/youtube" element={<YouTubePage />} />
-        <Route path="*" element={<h1>404 - Not Found!</h1>} />
+        <Route path="/spotify" element={<h1>Spotify, currently no component though</h1>} />
       </Routes>
     </BrowserRouter>
   )
