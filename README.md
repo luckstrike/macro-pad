@@ -1,7 +1,7 @@
 # Custom Macro Pad
 
 The goal of this project is to create a macro pad that can be used on a Raspberry Pi.\
-The project is using [Electron](https://electron.js) and [React](https://reactjs.org).\
+The project is using [Electron](https://electron.js) and [React](https://reactjs.org).
 
 ## To run this project
 
