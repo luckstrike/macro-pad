@@ -9,35 +9,34 @@ import {
 } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { Link } from 'react-router-dom'
 
-export default class HomeMacro extends Component {
-
-  render() {
-    return (
-      <div class="wrapper">
-        <div class="arrow-container">
-          <div class="page-arrow" id="left-arrow">
-            <Link to="/youtube" class="page-arrow">
-              <FontAwesomeIcon icon={solid('arrow-left')} />
-            </Link>
-          </div>
-          <div class="page-arrow" id="right-arrow">
-            <Link to="/spotify" class="page-arrow">
-              <FontAwesomeIcon icon={solid('arrow-right')} />
-            </Link>
-          </div>
+function HomeMacro() {
+  return (
+    <div class="wrapper">
+      <div class="arrow-container">
+        <div class="page-arrow" id="left-arrow">
+          <Link to="/youtube" class="page-arrow">
+            <FontAwesomeIcon icon={solid('arrow-left')} />
+          </Link>
         </div>
-        <div class="system-bar">Navbar</div>
-        <div class="dash-matrix">
-          <button class="dash-macro"></button>
-          <button class="dash-macro"></button>
-          <button class="dash-macro"></button>
-          <button class="dash-macro"></button>
-          <button class="dash-macro"></button>
-          <button class="dash-macro"></button>
-          <button class="dash-macro"></button>
-          <button class="dash-macro"></button>
+        <div class="page-arrow" id="right-arrow">
+          <Link to="/spotify" class="page-arrow">
+            <FontAwesomeIcon icon={solid('arrow-right')} />
+          </Link>
         </div>
       </div>
-    )
-  }
+      <div class="system-bar">Navbar</div>
+      <div class="dash-matrix">
+        <button class="dash-macro"></button>
+        <button class="dash-macro"></button>
+        <button class="dash-macro"></button>
+        <button class="dash-macro"></button>
+        <button class="dash-macro"></button>
+        <button class="dash-macro"></button>
+        <button class="dash-macro"></button>
+        <button class="dash-macro"></button>
+      </div>
+    </div>
+  )
 }
+
+export default HomeMacro
