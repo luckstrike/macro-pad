@@ -7,6 +7,7 @@ import {
   brands,
   icon,
 } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { Link } from 'react-router-dom'
 
 export default class HomeMacro extends Component {
 
@@ -15,10 +16,14 @@ export default class HomeMacro extends Component {
       <div class="wrapper">
         <div class="arrow-container">
           <div class="page-arrow" id="left-arrow">
-            <FontAwesomeIcon icon={solid('arrow-left')} />
+            <Link to="/youtube" class="page-arrow">
+              <FontAwesomeIcon icon={solid('arrow-left')} />
+            </Link>
           </div>
           <div class="page-arrow" id="right-arrow">
-            <FontAwesomeIcon icon={solid('arrow-right')} />
+            <Link to="/*" class="page-arrow">
+              <FontAwesomeIcon icon={solid('arrow-right')} />
+            </Link>
           </div>
         </div>
         <div class="system-bar">Navbar</div>
