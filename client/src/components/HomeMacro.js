@@ -29,14 +29,14 @@ function HomeMacro() {
         <GetTime />
       </div>
       <div class="dash-matrix">
-        <button class="dash-macro"></button>
-        <button class="dash-macro"></button>
-        <button class="dash-macro"></button>
-        <button class="dash-macro"></button>
-        <button class="dash-macro"></button>
-        <button class="dash-macro"></button>
-        <button class="dash-macro"></button>
-        <button class="dash-macro"></button>
+        <button class="dash-macro">F1</button>
+        <button class="dash-macro">F2</button>
+        <button class="dash-macro">F3</button>
+        <button class="dash-macro">F4</button>
+        <button class="dash-macro">F5</button>
+        <button class="dash-macro">F6</button>
+        <button class="dash-macro">F7</button>
+        <button class="dash-macro">F8</button>
       </div>
     </div>
   )

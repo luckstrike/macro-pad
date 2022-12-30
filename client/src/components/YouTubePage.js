@@ -16,7 +16,7 @@ function YouTubePage() {
     <div class="wrapper">
       <div class="system-bar">
         <GetTime />
-      </div>
+      </div> 
       <div class="page-arrow" id="right-arrow">
         <Link to="/" class="page-arrow">
           <FontAwesomeIcon icon={solid('arrow-right')} />
