@@ -1,0 +1,16 @@
+Build out a server side application that receives API requests
+Should then use the info from the API to complete a macro
+
+Phase 1:
+Receive a request for a key (like a letter or a function key) and execute it
+
+Things to Think About:
+
+How will the users change the macros for a certain app?
+
+It would have to be done on the server side, so then the client also needs to pick up
+the settings from the server on launch and load them in
+
+Also macro images should be able to changed in this app
+
+Should this also be an electron app?
